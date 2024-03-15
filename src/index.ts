@@ -20,5 +20,15 @@ const person: {
 };
 
 person.isLoggedIn = true;
+// console.log(person);
 
-console.log(person);
+// FUNCTION
+function addNumbers(a: number, b: number) {
+  return a + b;
+}
+
+const multiply = (a: number, b: number) => {
+  return a * b;
+};
+
+console.log(multiply(3, 3));

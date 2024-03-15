@@ -12,4 +12,12 @@ const person = {
     isLoggedIn: false,
 };
 person.isLoggedIn = true;
-console.log(person);
+// console.log(person);
+// FUNCTION
+function addNumbers(a, b) {
+    return a + b;
+}
+const multiply = (a, b) => {
+    return a * b;
+};
+console.log(multiply(3, 3));
