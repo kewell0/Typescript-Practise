@@ -12,3 +12,10 @@ const useCords = (): [number, number] => {
 };
 
 console.log(useCords());
+
+// NAMED TUPLE
+
+let user: [name: string, age: number];
+
+user = ["Joy", 24];
+console.log(user);
