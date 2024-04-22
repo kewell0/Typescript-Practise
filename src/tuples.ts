@@ -18,4 +18,4 @@ const useCords = (): [number, number] => {
 let user: [name: string, age: number];
 
 user = ["Joy", 24];
-console.log(user);
+// console.log(user);
