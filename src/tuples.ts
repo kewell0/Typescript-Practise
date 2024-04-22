@@ -11,7 +11,7 @@ const useCords = (): [number, number] => {
   return [lat, long];
 };
 
-console.log(useCords());
+// console.log(useCords());
 
 // NAMED TUPLE
 

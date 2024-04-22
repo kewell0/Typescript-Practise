@@ -8,7 +8,7 @@ const useCords = () => {
     const long = 20;
     return [lat, long];
 };
-console.log(useCords());
+// console.log(useCords());
 // NAMED TUPLE
 let user;
 user = ["Joy", 24];
